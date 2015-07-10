@@ -3,16 +3,24 @@
 <head>
     <meta charset="utf-8">
     <title>auto-complete API tutorial</title>
-    <meta name="description" content="auto-Search">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <meta name="description" content="auto-complete API tutorial">
+    <meta name="author" content="libraries hacked">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-   <script src="scripts.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
-    <h1>auto-complete book search example</h1>
+    <h1> book search</h1>
     <p>
         <label for="txtBookSearch">select a book</label>
-        <input type="text" id="txtBookSearch" name="txtBookSearch">
-        <input type="submit" id="bntSubmit" value="Search">
+        <input id="txtBookSearch" type="text">
     </p>
+        <h2>book details</h2>
+        <div id="divDescription"></div>
+
 </body>
 </html>
+ 
