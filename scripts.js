@@ -42,7 +42,7 @@ $(document).ready(function ()
 			$('#divDescription').empty();
 			// we get the currently selected item using ui.item
 			// show a pic if we have one
-			if (item.image != '')
+			if (ui.item.image != '')
 			{
 				$('#divDescription').append('<img src="' + ui.item.image + '" style="float: left; padding: 10px;">');
 			}
